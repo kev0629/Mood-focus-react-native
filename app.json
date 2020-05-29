@@ -1,0 +1,17 @@
+{
+  "name": "KerolieApp",
+  "displayName": "KerolieApp",
+  "expo": {
+    "name": "KerolieApp",
+    "slug": "KerolieApp",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
