@@ -4,10 +4,12 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "web": "expo start --web",
+    "expo": "expo start",
     "start": "react-native start",
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-community/slider": "^3.0.0",
     "expo": "~37.0.3",
     "expo-splash-screen": "^0.2.3",
     "expo-updates": "~0.2.0",

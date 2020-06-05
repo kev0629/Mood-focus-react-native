@@ -1,9 +1,9 @@
 {
-  "name": "KerolieApp",
-  "displayName": "KerolieApp",
+  "name": "HumeurApp",
+  "displayName": "HumeurApp",
   "expo": {
-    "name": "KerolieApp",
-    "slug": "KerolieApp",
+    "name": "HumeurApp",
+    "slug": "humeurapp",
     "version": "1.0.0",
     "platforms": [
       "ios",
@@ -12,6 +12,7 @@
     ],
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "description": ""
   }
 }
