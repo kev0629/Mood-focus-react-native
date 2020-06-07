@@ -5,6 +5,11 @@
     "name": "HumeurApp",
     "slug": "humeurapp",
     "version": "1.0.0",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "requireFullScreen": true,
+      "userInterfaceStyle": "dark"
+    },
     "platforms": [
       "ios",
       "android",

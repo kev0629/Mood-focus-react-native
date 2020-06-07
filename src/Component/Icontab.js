@@ -12,18 +12,18 @@ hangryImg = require('./../img/hangry.png')
 export default function IconTab (){
     return(
     <View style={styles.view} >
-        <Image style={styles.icn} source={verryHappyImg}/>
-        <Image style={styles.icn} source={happyImg}/>
-        <Image style={styles.icn} source={coolImg}/>
-        <Image style={styles.icn} source={sadImg}/>
         <Image style={styles.icn} source={hangryImg}/>
+        <Image style={styles.icn} source={sadImg}/>
+        <Image style={styles.icn} source={coolImg}/>
+        <Image style={styles.icn} source={happyImg}/>
+        <Image style={styles.icn} source={verryHappyImg}/>
+        
     </View>
     )
 }
 
 const styles = StyleSheet.create({
 view:{
-    backgroundColor:"#eee",
     flexDirection: "row",
 },
 icn:{
@@ -31,6 +31,7 @@ icn:{
     height: 100,
     marginRight:10,
     marginLeft:10,
+    marginBottom:10,
 },
   });
   

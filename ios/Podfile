@@ -43,4 +43,8 @@ target 'KerolieApp' do
 
   # react-native-cli autolinking
   use_native_modules!
+  pod 'react-native-slider', :path => '../node_modules/@react-native-community/slider'
+
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
 end
