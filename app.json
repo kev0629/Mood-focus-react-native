@@ -2,8 +2,8 @@
   "name": "HumeurApp",
   "displayName": "HumeurApp",
   "expo": {
-    "name": "HumeurApp",
-    "slug": "humeurapp",
+    "name": "ConcentrationApp",
+    "slug": "concentrationapp",
     "version": "1.0.0",
     "userInterfaceStyle": "automatic",
     "ios": {

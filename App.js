@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Platform, StyleSheet,Text, View } from 'react-native';
 import IconTab from './src/Component/Icontab';
 import SliderTab from './src/Component/Slidertab';
+import ConcentrationTab from "./src/Component/Concentrationtab"
 import { Appearance, AppearanceProvider, useColorScheme } from 'react-native-appearance';
 
 let colorScheme = Appearance.getColorScheme();
@@ -26,7 +27,7 @@ const instructions = Platform.select({
 export default function App() {
   return (
     <View style={styles.container}>
-      <IconTab/>
+      <ConcentrationTab/>
       <SliderTab/>
     </View>
   );
