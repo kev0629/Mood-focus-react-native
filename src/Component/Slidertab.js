@@ -35,7 +35,7 @@ export default class Slidertab extends React.Component{
               maximumTrackTintColor=''
               thumbStyle={styles.thumb}
               trackStyle={styles.track}
-              step={1}
+              step={0.1}
               
               value={this.state.sliderValue}
               onValueChange={(sliderValue) => this.setState({ sliderValue })}
